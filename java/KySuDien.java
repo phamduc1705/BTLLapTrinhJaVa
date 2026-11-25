@@ -8,9 +8,7 @@ public class KySuDien extends KySu {
     public KySuDien() {
     }
 
-    public KySuDien(String maKySu, String hoTen, LocalDate ngaySinh, String gioiTinh,
-                    String soDienThoai, String email, int soNamKinhNghiem, double luongCoBan,
-                    String capDienAp, String heThongPhuTrach, boolean chungChiAnToanDien) {
+    public KySuDien(String maKySu, String hoTen, LocalDate ngaySinh, String gioiTinh,String soDienThoai, String email, int soNamKinhNghiem, double luongCoBan,String capDienAp, String heThongPhuTrach, boolean chungChiAnToanDien) {
         super(maKySu, hoTen, ngaySinh, gioiTinh, soDienThoai, email, soNamKinhNghiem, luongCoBan);
         this.capDienAp = capDienAp;
         this.heThongPhuTrach = heThongPhuTrach;

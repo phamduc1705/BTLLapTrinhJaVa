@@ -8,9 +8,7 @@ public class KySuXayDung extends KySu {
     public KySuXayDung() {
     }
 
-    public KySuXayDung(String maKySu, String hoTen, LocalDate ngaySinh, String gioiTinh,
-                       String soDienThoai, String email, int soNamKinhNghiem, double luongCoBan,
-                       String chungChiHanhNghe, String linhVucCongTrinh, String duAnPhuTrach) {
+    public KySuXayDung(String maKySu, String hoTen, LocalDate ngaySinh, String gioiTinh,String soDienThoai, String email, int soNamKinhNghiem, double luongCoBan,String chungChiHanhNghe, String linhVucCongTrinh, String duAnPhuTrach) {
         super(maKySu, hoTen, ngaySinh, gioiTinh, soDienThoai, email, soNamKinhNghiem, luongCoBan);
         this.chungChiHanhNghe = chungChiHanhNghe;
         this.linhVucCongTrinh = linhVucCongTrinh;

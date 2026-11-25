@@ -8,9 +8,7 @@ public class KySuPhanMem extends KySu {
     public KySuPhanMem() {
     }
 
-    public KySuPhanMem(String maKySu, String hoTen, LocalDate ngaySinh, String gioiTinh,
-                       String soDienThoai, String email, int soNamKinhNghiem, double luongCoBan,
-                       String ngonNguLapTrinh, String framework, String capBac) {
+    public KySuPhanMem(String maKySu, String hoTen, LocalDate ngaySinh, String gioiTinh,String soDienThoai, String email, int soNamKinhNghiem, double luongCoBan,String ngonNguLapTrinh, String framework, String capBac) {
         super(maKySu, hoTen, ngaySinh, gioiTinh, soDienThoai, email, soNamKinhNghiem, luongCoBan);
         this.ngonNguLapTrinh = ngonNguLapTrinh;
         this.framework = framework;

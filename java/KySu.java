@@ -14,8 +14,7 @@ public class KySu {
     public KySu() {
     }
 
-    public KySu(String maKySu, String hoTen, LocalDate ngaySinh, String gioiTinh,
-                String soDienThoai, String email, int soNamKinhNghiem, double luongCoBan) {
+    public KySu(String maKySu, String hoTen, LocalDate ngaySinh, String gioiTinh,String soDienThoai, String email, int soNamKinhNghiem, double luongCoBan) {
         this.maKySu = maKySu;
         this.hoTen = hoTen;
         this.ngaySinh = ngaySinh;
